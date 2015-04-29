@@ -20,7 +20,8 @@ void main()
 		cout << "3. Получить верхний элемент" << endl;
 		cout << "4. Узнать размер стека" << endl;
 		cout << "0. Выйти" << endl;
-		cout << "Номер команды > "; cin >> number;
+		cout << "Номер команды > "; 
+		cin >> number;
 		switch (number)
 		{
 		case '1': //добавление элемента

@@ -4,7 +4,7 @@
 #include <iostream>
 #include <stack>
 using namespace std;
-/** @function главная функция */
+
 void main()
 {
 	setlocale(LC_ALL, "Russian");

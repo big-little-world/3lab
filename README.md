@@ -11,7 +11,7 @@ using namespace std;
 void main()
 {
 	setlocale(LC_ALL, "Russian");
-	stack <int> S; //создание стека S типа int
+	stack <int> S; 
 	char number; int value;
 	do
 	{
@@ -25,7 +25,8 @@ void main()
 		switch (number)
 		{
 		case '1': //добавление элемента
-			cout << "Значение > "; cin >> value;
+			cout << "Значение > ";
+			cin >> value;
 			S.push(value); cout << endl << "Элемент добавлен в стек\n\n";
 			break;
 		
